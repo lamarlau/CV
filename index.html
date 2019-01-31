@@ -4,52 +4,133 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Me Page</title>
+    <title>😏 Lauren LaMar 😏</title>
 </head>
+<!--all of my styling-->
 <style>
-#about-title {font-style: oblique;
-color:aqua
+#objectives {
+    color:azure
 }
-#skills-list {color:#3c88e0;
-font-size: 14px
+#education{
+    color:azure
 }
-#skills-heading {color:blue;
-font-style: oblique
+#name{
+    color:#ffe600;
+    font-style:italic
 }
-#goals-heading {color:blue;
-font-style: oblique
+#peace{
+    color:#ff33f5
 }
-#goals-list {color:#ca05fc;
+#table{
+    color:lavender
+}
+#skills{
+    color:aliceblue
 }
 </style>
-<body background="honeycomb.jpg">
-    <h1 id="about-title">Lauren</h1>
-    <hr align="left" width="30%">
-    <p align="middle">
-        <img src="selfportrait.jpg" alt="self portrait" class="center" height="300">
-    </p>
-    <h2 id="skills-heading">Skills</h2>
-        <ul class="skills" id="skills-list">
-            <li>Drawing</li>
-            <li>Empathy</li>
-            <li>Compassion</li>
-            <li>Thinking positively</li>
-            <li>Resiliance</li>
-        </ul>
-    <h2 id="goals-heading">Goals</h2>
-        <ol class="goals" id="goals-list">
-            <li>Going to school</li>
-            <li>Get a good job</li>
-            <li>Teach myself coding</li>
-            <li>Teach myself calculus</li>
-            <li>Be independent</li>
-        </ol>
-    <h2>About Me</h2>
-    <p>
-        I grew up in a small town in wisconsin. I've always known that the only way to go forward in life would be to go to college but at certain times in my life it seemed unachievable. I have a few very positive female role models and it reminds me I can do it. I read the Feminine Mystique for my final project in my last english class. I just graduated last September.
-    </p>
-    <a href="Table.html" target="_blank">Daily Activities</a>
+<!--includes my intro skills and contact me-->
+<body background="waves.jpg">
+    <hr size="3" noshade>
+        <left>
+            <h1 id="name">Lauren LaMar</h1>
+            <h2 id="peace">❃Peace❃ ⚘Love⚘ ❊Trust❊</h2>
+        </left>
+    <hr size="3" noshade>
+    <ul id="objectives"><b>Objectives</b>
+        <li>Equality</li>
+        <li>Activism</li>
+        <li>Tolerance</li>
+    </ul>
     <br>
-    <a href="Form.html" target="_blank">Register</a>
+<!--my lists are here-->
+    <ol type="I" id="education"><b>Education</b>
+        <li>Portage/Middleton/Clark St High</li>
+        <li>Currently Enrolled at MATC in liberal arts</li>
+        <li>My mission is to graduate UW with a <strong>B.S.</strong></li>
+    </ol>
+    <br>
+<!--basic table basic work exp.-->
+    <table id="table" cellpadding="20" border="1">
+        <thead>
+            <tr>
+                <td><strong>Duration</strong></td>
+                <td><strong>Work Experience</strong></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2015-2016</td>
+                <td>Restaurant work</td>
+            </tr>
+            <tr>
+                <td>2019-current</td>
+                <td>Catering</td>
+            </tr>
+        </tbody>
+    </table>
+    <ul>
+        <li><a href="waves.jpg" target="_blank">Background image</a></li>
+        <br>
+        <li><a href="https://wisconsinenvironment.org/" target="_blank">Look into environmental activism in Wisconsin</a>
+    </ul>
+    <table>
+    <hr noshade>
+<!--implementation of the table challenge-->
+    <h3 id="skills">Skills</h3>
+    <table id="skills">
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td>html</td>
+                        <td>✤✤✤✤</td>
+                    </tr>
+                    <tr>
+                        <td>css</td>
+                        <td>✤✤✤</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td>javascript</td>
+                        <td>✤</td>
+                    </tr>
+                    <tr>
+                        <td>bootsrap</td>
+                        <td>✤</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <hr size="1" noshade>
+    </table>
+    <h3 id="skills">Contact</h3>
+    <form action="mailto:lamarlau55@gmail.com" method="post" enctype="text/plain">
+    <label id="skills">
+<!--ywca address-->
+        <p>2040 South Park St.<br> Madison WI, 53713</p>
+        <br>
+        <hr size="3">
+    </label>
+<!--Does this contact me page actually work? if not how to?-->
+    <label id="skills">Your Full Name
+        <input type="text" name="name" placeholder="Full Name">
+    </label>
+    <br>
+    <label id="skills">Your Email
+        <input type="email" name="email" placeholder="Email">
+    </label>
+    <br>
+    <label id="skills">Your Message
+        <input type="text" name="message" placeholder="Send me a message">
+    </label>
+    <br>
+    <label>
+        <input type="submit">
+    </label>
+    </form>
 </body>
 </html>

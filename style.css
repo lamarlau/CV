@@ -1,21 +1,23 @@
 body {
   background-color: #EAF2F8;
-#objectives {
-    color: azure
-}
 #education{
     color: #161d6f;
+    margin: 5px;
 }
 #name{
     color: #2874A6;
     font-style: italic
+     padding: 5px; 
 }
 #aspiration{
     color: #117A65;
+     padding: 5px; 
 }
 #table{
     color: #6930c3;
+    margin: 5px;
 }
 #skills{
     color: #006666;
+     padding: 5px; 
 }

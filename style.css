@@ -3,6 +3,7 @@ body {
 #education{
     color: #00108A;
     margin: 5px;
+    font-family: sans-serif;
 }
 #name{
     color: #00108A;
@@ -16,8 +17,10 @@ body {
 #table{
     color: #00108A;
     margin: 5px;
+    font-family: sans-serif;
 }
 #skills{
     color: #00108A;
      padding: 5px; 
-}
+     font-family: sans-serif;
+} 
